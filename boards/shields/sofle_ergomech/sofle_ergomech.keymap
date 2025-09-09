@@ -25,10 +25,6 @@
             then-layer = <ADJUST>;
         };
     };
-    
-    &mt {
-        flavor = "balanced"
-    }
 
     keymap {
         compatible = "zmk,keymap";
