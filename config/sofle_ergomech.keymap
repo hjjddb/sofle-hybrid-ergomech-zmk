@@ -104,7 +104,7 @@
 &trans          &trans     &trans     &trans     &trans    &trans                            &kp LPAR   &kp RPAR   &kp LBKT   &kp RBKT   &kp LBRC  &trans
 &trans          &kp HOME   &kp PG_DN  &kp PG_UP  &kp END   &trans                            &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp HOME  &trans
 &trans          &transL    &trans     &trans     &trans    &trans                            &kp MINUS  &kp EQUAL  &kp GRAVE  &kp BSLH   &kp BSLH  &trans
-&trans          &trans     &trans     &trans     &trans    &kp UNDER  &kp TILDE    &kp PIPE  &PLUS      &trans     &trans
+&trans          &trans     &trans     &trans     &trans    &kp UNDER  &kp TILDE    &kp PIPE  &kp PLUS   &trans     &trans     &trans
                 
                 &kp A      &kp B     &kp C      &kp D      &kp E
         >;
