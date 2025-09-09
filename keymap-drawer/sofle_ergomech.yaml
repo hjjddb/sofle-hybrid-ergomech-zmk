@@ -54,7 +54,7 @@ layers:
   - LALT
   - LCTRL
   - lower
-  - RET
+  - SPACE
   - SPACE
   - raise
   - RCTRL
