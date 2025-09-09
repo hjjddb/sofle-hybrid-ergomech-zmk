@@ -50,68 +50,68 @@ layers:
   - /
   - RSHFT
   - MUTE
-  - LGUI
-  - LALT
-  - LCTRL
-  - lower
+  - {t: LGUI, h: raise}
+  - {t: LALT, h: adjust}
+  - {t: ESC, h: raise}
+  - {t: TAB, h: lower}
   - SPACE
-  - SPACE
-  - raise
-  - RCTRL
+  - ENTER
+  - {t: BSPC, h: lower}
+  - {t: DEL, h: raise}
   - RALT
   - RGUI
   - ENTER
   - RIGHT
-  - UP ARROW
+  - UP
   - LEFT
   - DOWN
   lower:
   - '&studio_unlock'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - F12
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - (
   - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - +
-  - '{'
-  - '}'
   - '['
   - ']'
-  - ;
-  - ':'
+  - '{'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - HOME
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&transL'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - '`'
+  - \
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,10 +119,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - _
+  - '~'
+  - '|'
+  - '&PLUS'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
@@ -131,12 +131,6 @@ layers:
   - D
   - E
   raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -144,34 +138,34 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
   - {t: ▽, type: trans}
-  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -179,15 +173,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - '`'
+  - \
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - '~'
+  - '|'
+  - '&PLUS'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
@@ -202,12 +202,12 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - EP TOG
   - RGB HUD
   - RGB HUI
@@ -246,12 +246,12 @@ layers:
   - ''
   - RGB TOG
   - ''
-  - ''
-  - ''
   - {type: held}
   - ''
   - ''
-  - {type: held}
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
