@@ -20,7 +20,7 @@
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "tab-preferred";
+            flavor = "tap-preferred";
             require-prior-idle-ms = <150>;
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
@@ -80,7 +80,7 @@
 &kp ESC     &kp Q     &kp W     &kp E      &kp R      &kp T    &kp Y      &kp U      &kp I         &kp O     &kp P     &kp BSPC
 &kp TAB     &hml LALT A  &hml LSHFT S  &hml LGUI D   &hml LCTRL F  &kp G    &kp H      &hmr RCTRL J  &hmr RGUI K   &hmr RSHFT L  &hmr RALT SEMI  &kp SQT
 &kp LSHFT   &kp Z     &kp X     &kp C      &kp V      &kp B    &kp N      &kp M      &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&kp C_MUTE  &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp RET  &kp SPACE  &mo RAISE  &kp RCTRL     &kp RALT  &kp RGUI
+&kp C_MUTE  &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp SPACE  &kp SPACE  &mo RAISE  &kp RCTRL     &kp RALT  &kp RGUI
                                                                &kp ENTER  &kp RIGHT  &kp UP_ARROW  &kp LEFT  &kp DOWN
             >;
 
